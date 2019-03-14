@@ -355,6 +355,9 @@ a.border-bottom-blue-hover {
 
 @media (max-width: 768px) {
 	.advantages {
+		min-height: auto;
+		padding-bottom: 30px;
+
 		background-image: none;
 	}
 }
@@ -448,6 +451,15 @@ a.border-bottom-blue-hover {
 
 @media (max-width: 990px) {
 	.additional-advantages {
+		background-image: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.additional-advantages {
+		padding-top: 40px;
+		padding-bottom: 30px;
+
 		background-image: none;
 	}
 }
@@ -575,10 +587,6 @@ a.border-bottom-blue-hover {
 
 .offer__btn {
 	justify-content: flex-end;
-}
-
-.offer__btn .btn-transparent {
-	margin-left: auto;
 }
 
 
