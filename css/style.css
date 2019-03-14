@@ -151,10 +151,13 @@ a.border-bottom-blue-hover {
 
 .header-top {
 	padding-top: 20px;
-	height: 600px;
+	padding-bottom: 150px;	
 }
 
 @media (max-width: 1200px) {
+	.header-top {
+		padding-bottom: 120px;	
+	}
 	.header-top__main-menu {
 		margin-bottom: 40px;
 	}
@@ -332,6 +335,12 @@ a.border-bottom-blue-hover {
 .stripe-down-block {
 	border-bottom: 1px solid #ededed;
 	margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+	.stripe-down-block {
+		margin-bottom: 0;	
+	}
 }
 
 
@@ -756,6 +765,14 @@ a.border-bottom-blue-hover {
 	background-color: #15141a;
 }
 
+@media (max-width: 768px) {
+	.contact-form {
+		left: 0;
+		
+		padding: 20px 25px 15px 25px;
+	}
+}
+
 .contact-form__input-wrap {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -794,6 +811,13 @@ a.border-bottom-blue-hover {
 	border: 1px solid #444348;
 	border-radius: 5px;
 	background-color: #15141a;
+}
+
+@media (max-width: 768px) {
+	.contact-form__input,
+	.contact-form__textarea {
+		margin-right: 0;	
+	}
 }
 
 .contact-form .contact-form__btn {
